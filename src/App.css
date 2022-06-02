@@ -1,0 +1,70 @@
+.App {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  
+}
+.App > img {
+  width: 50%;
+  margin-right: 40px;
+ 
+}
+.heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  margin-left: 35%;
+}
+.heading::after{
+  content: "";
+  color: blue;
+  border: 1px solid;
+  opacity: 0;
+  transition: 500ms ease;
+}
+.heading:hover::after{
+  opacity: 1;
+  
+}
+
+.formdiv {
+  width: 50%;
+  padding: 0 10px;
+}
+label {
+  font-size: 11px;
+  margin: 0;
+}
+.datebox {
+  display: flex;
+  justify-content: space-between;
+}
+.dateboxelem {
+  width: 28%;
+}
+.payment {
+  margin: 15px 0;
+  text-align: center;
+}
+.chakra-input__group {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#myinput {
+  border-radius: 0;
+}
+
+.btn {
+  text-align: center;
+}
+.redborder{
+  border: 1px solid red;
+}
